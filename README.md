@@ -1,4 +1,4 @@
-# WAKASA-2
+# WAKASA-The Monkey King Adventure
 TO DOWNLOAD the Game you need to go to the Website and tap on the "PLAY WAKASA" button.
 You will be redirected to the GOOGLE DRIVE from where you can download the "SETUP Fill".
 You need the STEAM PLATFORM or any other equivalent platform to run the game.
