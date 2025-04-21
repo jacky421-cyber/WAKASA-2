@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAKASA - The Monkey King Adventure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+    margin: 0;
+  font-family: 'Play', sans-serif;
+  background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat fixed;
+  color: #fff;
+    }
+
+    header {
+      background: url('https://cdn.pixabay.com/photo/2020/10/31/20/33/monkey-king-5702964_960_720.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+      color: #98fb98;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-top: 1rem;
+    }
+
+    .play-btn {
+      margin-top: 2rem;
+      background-color: #98fb98;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .play-btn:hover {
+      background-color: #e6c200;
+    }
+
+    .features, .about, footer {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .features h2, .about h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Soft shadow for contrast */
+      color: #98fb98;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      margin: 10px 0;
+    }
+
+    .monkeyking-img {
+      max-width: 600px;
+      width: 100%;
+      border-radius: 20px;
+      margin-top: 30px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    }
+
+    footer {
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WAKASA</h1>
+    <p>Journey as the legendary Wukong through a vast, mystical open world. Explore forest terrains, uncover forgotten secrets inspired by Black Myth.</p>
+    <a href="https://drive.usercontent.google.com/download?id=1bLVq8LcuyVuCszJ_eEPcGV-8qw-_0Mpc&export=download&authuser=0" target="_blank">
+      <button class="play-btn">Play WAKASA</button>
+    </a>
+  </header>
+
+  <section class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>🗺️ Open-world forest exploration</li>
+      <li>🐒 Play as the legendary Monkey King</li>
+      <li>🧙 Inspired by myth and legend</li>
+    </ul>
+  </section>
+
+  <section class="about">
+    <h2>Meet the Hero</h2>
+    <img class="monkeyking-img" src="monkeyking.gif.png" alt="Monkey King Animation">
+    <p style="margin-top:20px">Developed by <strong>Team Wakasa</strong></p>
+  </section>
+
+  <footer>
+    Made for Tech Inertia 3.0
+  </footer>
+</body>
+</html>
