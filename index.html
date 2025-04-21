@@ -1,72 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAKASA - The Monkey King Adventure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Play', sans-serif;
+      background: linear-gradient(to bottom right, #0a0f0d, #1a2a23);
+      color: #fff;
+    }
 
-<style>
-body {
-    margin: 0;
-    font-family: 'play', sans-serif;
-    background-color: linear-gradient(to the bottom right, #0a0f0d, #1a2a23);
-    color: #fff;
-}
+    header {
+      background: url('https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=2070') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
 
-header {
-    background: url(https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=2070) center/column no-repeat;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-text-align: center;
-padding: 20px;
-}
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+      color: #ffd700;
+    }
 
-header h1 {
-    font: size 4rem;
-margin: 0;
-color: #ffd700;
-}
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-top: 1rem;
+    }
 
-header p {
-    font-size: 1.2rem;
-max-width: 600px;
-margin-top: 1rem;
+    .play-btn {
+      margin-top: 2rem;
+      background-color: #ffd700;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
 
-}
+    .play-btn:hover {
+      background-color: #e6c200;
+    }
 
-.play-btn {
+    .features, .about, footer {
+      padding: 50px 20px;
+      text-align: center;
+    }
 
-margin-top: 2rem;
-background-color: #ffd700;
-color: #000;
-border: none;
-padding: 15px 30px;
-font-size: ;
-border-radius: 10px;
-cursor: pointer;
-transition: transform 0.3s ease;
-}
+    .features h2, .about h2 {
+      color: #ffd700;
+      font-size: 2rem;
+    }
 
-.play-btn:hover {
-
-background-color: #e6d200;
-}
-
-.features, .about, footer {
-padding: 50px 20px;
-text-align: center;
-}
-
-.features h2, .about h2 {
-color: #ffd700;
-font-size: 2rem;
-}
-
-.feature-grid {
+    .feature-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 30px;
@@ -119,48 +115,45 @@ font-size: 2rem;
     }
   </style>
 </head>
-
-
 <body>
   <header>
     <h1>WAKASA</h1>
-    <p>Journey as the legendary Wukong thorugh a vast, mythical open world. Explore forest terrains, uncover forgotten secrets inspired by Black Myth</p>
-    <a href="https://drive.usercontent.google.com/download?id=1qubxqdyu80j_ADEpKpILXzhSjRR0t2jv&export=download&authuser=0" target="_blank"></a>
-    <button class="play-btn">PLAY WAKASA</button>
+    <p>Journey as the legendary Wukong through a vast, mystical open world. Explore forest terrains, uncover forgotten secrets inspired by Black Myth.</p>
+    <a href="https://drive.usercontent.google.com/download?id=1qubxqdyu80j_ADEpKpILXzhSjRR0t2jv&export=download&authuser=0" target="_blank">
+      <button class="play-btn">Play WAKASA</button>
+    </a>
   </header>
 
-<section class="features"> 
+  <section class="features">
     <h2>Game Features</h2>
     <div class="feature-grid">
-        <div class="feature-box">
-            <h3>Immersive Open World</h3>
-            <p>Roam freely through lush, detialed forest terrains filled with secrets and hidden paths</p>
-        </div>
-        <div class="feature-box">
-            <h3>Play as Wukong</h3>
-            <p>Step into the shoes of the legendary Monkey King and use mystical powers to overcome challenges.</p>
-        </div>
-        <div class="feature-box">
-            <h3>Myth-Inspired Quests</h3>
-            <p>Experience a story influenced by ancient myths and legends, rich in lore and discovery</p>
-        </div>
+      <div class="feature-box">
+        <h3>🌲 Immersive Open World</h3>
+        <p>Roam freely through lush, detailed forest terrains filled with secrets and hidden paths.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🐒 Play as Wukong</h3>
+        <p>Step into the shoes of the legendary Monkey King and use mystical powers to overcome challenges.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📜 Myth-Inspired Quests</h3>
+        <p>Experience a story influenced by ancient myths and legends, rich in lore and discovery.</p>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<section class="about">
-    <h2>Meet The Hero</h2>
+  <section class="about">
+    <h2>Meet the Hero</h2>
     <div class="hero-images">
-        <img src="rightview.png" alt="leftview">
-        <img src="frontview.png" alt="frontview">
-        <img src="leftview.png" alt="rightview">
+      <img src="rightview.png" alt="Left View of Wukong">
+      <img src="frontview.png" alt="Front View of Wukong">
+      <img src="leftview.png" alt="Right View of Wukong">
     </div>
-    <p style="margin-top:20px" >Developed by <strong>Team Wakasa</strong></p>
-</section>
+    <p style="margin-top:20px">Developed by <strong>Team Wakasa</strong></p>
+  </section>
 
-<footer>
-    Made for Tech Inertia3.0
-</footer>
-
+  <footer>
+    Made for Tech Inertia 3.0
+  </footer>
 </body>
 </html>
